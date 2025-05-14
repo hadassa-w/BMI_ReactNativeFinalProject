@@ -1,29 +1,33 @@
 {
   "expo": {
-    "name": "finalProject",
-    "slug": "finalProject",
+    "name": "BMI Calculator",
+    "slug": "BMI_Calculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Calculator.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/BMI1.jpg",
+      "resizeMode": "contain"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/BMI1.jpg"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hdss.BMI_Calculator"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/BMI1.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a48929c-e8df-4b69-923a-ad78cbc5b4aa"
+      }
     }
   }
 }
